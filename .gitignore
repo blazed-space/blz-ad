@@ -22,7 +22,7 @@ lt~obsolete.m4
 *aclocal.m4
 
 Makefile.in
-Makefile
+#Makefile
 .deps
 .libs
 autom4te.cache

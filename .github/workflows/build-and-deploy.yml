@@ -21,9 +21,9 @@ jobs:
       - name: Autogen
         run: bash autogen.sh
       - name: Configure
-        run: cd build/ && ../configure
+        run: cd build/ && ./configure
       - name: Build project
-        run: make  # Adjust this command if you're using a different build system
+        run: cd ../ && make  # Adjust this command if you're using a different build system
       - name: Create release
         id: create_release
         uses: softprops/action-gh-release@v1
