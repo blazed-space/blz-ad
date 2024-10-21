@@ -39,3 +39,5 @@ sudo yum install -y gcc make MariaDB-shared MariaDB-devel
  ~# my_program
  ~# make uninstall
 ```
+
+## Attribution
