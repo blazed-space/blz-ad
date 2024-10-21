@@ -19,7 +19,7 @@ jobs:
         run: sudo apt-get install -y build-essential  # Install build tools
 
       - name: Build project
-        run: ../configure && make  # Adjust this command if you're using a different build system
+        run: make  # Adjust this command if you're using a different build system
 
       - name: Create release
         id: create_release
