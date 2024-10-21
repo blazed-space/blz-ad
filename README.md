@@ -19,6 +19,11 @@
 * OpenLDAP
 * MariaDB or MongoDB
 
+**Install Dependencies:**
+```shell
+sudo yum install -y gcc make MariaDB-shared MariaDB-devel
+```
+
 **To compile:**
 * GCC and Make
 * libmariadb-dev or libmongoc-dev
