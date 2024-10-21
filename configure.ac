@@ -26,13 +26,13 @@ CXXFLAGS="-Werror -Wall $CXXFLAGS"
 AC_DEFINE([__STDC_FORMAT_MACROS], [], [Description])
 
 # Debug
-m4_include([config_m4/debug.m4])
+#m4_include([config_m4/debug.m4])
 
 # Check for profiling mode
-m4_include([config_m4/profiling.m4])
+#m4_include([config_m4/profiling.m4])
 
 # Checking libs
-m4_include([config_m4/versioning.m4])
+#m4_include([config_m4/versioning.m4])
 
 # Output files
 AC_CONFIG_FILES([
