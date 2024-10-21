@@ -39,7 +39,6 @@ ar-lib
 test-driver
 
 /build-*
-/build/*
 
 !.gitignore
 !.travis.yml
